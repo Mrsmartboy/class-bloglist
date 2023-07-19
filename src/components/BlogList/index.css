@@ -1,0 +1,36 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-head {
+  color: #12022f;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: 'Roboto';
+}
+
+.publish {
+  color: #9aa5b1;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: 'Roboto';
+}
+.description {
+  color: #9aa5b1;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: 'Roboto';
+}
+
+.hr-line {
+  border: 0.1em solid #9aa5b1;
+  width: 100%;
+}
